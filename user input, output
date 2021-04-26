@@ -1,0 +1,27 @@
+/*Take 3 integer variables named a,b and c. 
+Scan the values of these three variables ffron user. Then store the average 
+of these three variables into a new float variable named average. 
+Finally print the output.*/
+
+
+#include<stdio.h>
+int main()
+{
+    int a,b,c;
+    printf("A = ");
+    scanf("%d",&a);
+
+    printf("B = ");
+    scanf("%d",&b);
+
+    printf("C = ");
+    scanf("%d",&c);
+
+    float average =(a+b+c)/3;
+    printf("Value of A: %d\n",a);
+    printf("Value of B: %d\n",b);
+    printf("Value of C: %d\n",c);
+    printf("Average: %0.2f\n",average);
+
+    return 0;
+}
