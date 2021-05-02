@@ -1,0 +1,26 @@
+
+/*PROBLEM 1: TAKE AN ARRAY OF INTEGER
+DATA TYPE OF size
+10. GET INPUT FEOM USER
+AND STORE THE VALUES
+IN THE ARRAY AND
+FINALLY PRINT THOSE 10 INTEGERS....*/
+
+
+#include<stdio.h>
+int main()
+{
+    int a[10], i, sum = 0;
+
+    printf("Enter the values of array: \n");
+    for(i=0; i<10; i++){
+        scanf("%d\n", &a[i]);
+}
+    for(i=0; i<10; i++){
+            sum = sum + a[i];
+    }
+
+    printf("Sum of the array: %d\n ", sum);
+
+return 0;
+}
